@@ -22,6 +22,7 @@ function count(students) {
       for (const key in email) {
         if (email[key] === "c") {
           count++;
+          break;
         }
       }
     }
@@ -61,10 +62,10 @@ let stu5 = {
   name: "Zehra",
   surname: "Babayev",
   age: 23,
-  email: "zehra@gmail.com",
+  email: "zehra@gmail.cccom",
 };
 
 let students = [stu1, stu2, stu3, stu4, stu5];
 
 // filter(students);
-// count(students);
+count(students);
